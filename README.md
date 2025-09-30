@@ -20,12 +20,12 @@ Key capabilities:
 
 ## Features
 
-- **Multi-header editor** — add multiple `Header-Name: value` lines.
-- **Tool selection** — choose which Burp tools receive the injected headers.
-- **Host & path filtering** — apply headers only to specific hosts or paths.
-- **Auto-update** — refresh header values automatically from Proxy history to keep tokens current.
-- **Manual refresh** — one-click "Update Now (from Proxy history)".
-- **Safe behavior** — the extension skips adding headers that already exist in the outgoing request (case-insensitive).
+- **Multi-header editor** - add multiple `Header-Name: value` lines.
+- **Tool selection** - choose which Burp tools receive the injected headers.
+- **Host & path filtering** - apply headers only to specific hosts or paths.
+- **Auto-update** - refresh header values automatically from Proxy history to keep tokens current.
+- **Manual refresh** - one-click "Update Now (from Proxy history)".
+- **Safe behavior** - the extension skips adding headers that already exist in the outgoing request (case-insensitive).
 
 ---
 
