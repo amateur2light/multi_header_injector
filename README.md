@@ -79,7 +79,7 @@ Key capabilities:
    ```
 5. Enable **Auto‑update** and set the interval (seconds), or click **Update Now** to refresh immediately.
 6. Click **Apply**.
-7. Run your scan or issue requests from the selected tools — headers will be injected where appropriate.
+7. Run your scan or issue requests from the selected tools - headers will be injected where appropriate.
 
 ---
 
@@ -89,7 +89,8 @@ Key capabilities:
 - For each header name listed in the editor, it searches for the most recent request that contains that header name and captures its value.
 - Found values replace the existing values in the editor and in-memory configuration.
 - AutoUpdate runs automatically before injection if the configured interval has elapsed; it also runs immediately when you click **Apply** with AutoUpdate enabled.
-- **Important:** AutoUpdate only **replaces header values** for header names already present in your header editor — it does not add new header names automatically.
+- **Important:** AutoUpdate only **replaces header values** for header names already present in your header editor - it does not add new header names automatically.
+- **Note:** The extension works well while you are performing manual testing or have extended session expiry. If your application has session expiry due to user inactivity use [Session-Pilot](https://github.com/amateur2light/Session-Pilot) in parallel.
 
 ---
 
